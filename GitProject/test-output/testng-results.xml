@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6813" started-at="2020-04-05T22:08:34 IST" finished-at="2020-04-05T22:08:41 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6813" started-at="2020-04-05T22:08:34 IST" finished-at="2020-04-05T22:08:41 IST">
+      <class name="com.qa.testcases.TC01_GET_Request">
+        <test-method status="PASS" signature="test1SyntaxValidation()[pri:0, instance:com.qa.testcases.TC01_GET_Request@167fdd33]" name="test1SyntaxValidation" duration-ms="6141" started-at="2020-04-05T22:08:34 IST" finished-at="2020-04-05T22:08:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1SyntaxValidation -->
+        <test-method status="PASS" signature="test2technicalResponseValidations()[pri:0, instance:com.qa.testcases.TC01_GET_Request@167fdd33]" name="test2technicalResponseValidations" duration-ms="562" started-at="2020-04-05T22:08:40 IST" finished-at="2020-04-05T22:08:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2technicalResponseValidations -->
+      </class> <!-- com.qa.testcases.TC01_GET_Request -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
