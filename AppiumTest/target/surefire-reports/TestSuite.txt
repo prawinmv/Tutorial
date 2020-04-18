@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 45.148 s <<< FAILURE! - in TestSuite
+main_page(com.qa.test.test2)  Time elapsed: 15.698 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-04MOMSC6', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {VERSION: 8.0, appActivity: com.rahul.videoderbeta.appi..., appPackage: com.rahul.videoderbeta, databaseEnabled: false, desired: {VERSION: 8.0, appActivity: com.rahul.videoderbeta.appi..., appPackage: com.rahul.videoderbeta, deviceName: c1cbd64c, noReset: true, platformName: Android}, deviceApiLevel: 26, deviceManufacturer: SONY, deviceModel: G2299, deviceName: c1cbd64c, deviceScreenDensity: 320, deviceScreenSize: 720x1280, deviceUDID: c1cbd64c, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 48, takesScreenshot: true, viewportRect: {height: 1136, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: b2f59403-6f03-4e5b-8e45-59d7dab5db0a
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Search or Enter URL']}
+	at com.qa.test.test2.main_page(test2.java:52)
+
