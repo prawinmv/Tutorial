@@ -13,12 +13,17 @@ public class IQ1 {
 	
 	
 	
-	//String reverse using String Builder or String Buffer Class
+	//String reverse using String Builder 
 	
 	StringBuilder txt= new StringBuilder(text);
 	System.out.println(txt.reverse());
 	
 	
+	
+	//String reverse using String Builder Class
+	
+	StringBuffer txt1= new StringBuffer(text);
+	System.out.println(txt.reverse());
 	
 	
 	}
