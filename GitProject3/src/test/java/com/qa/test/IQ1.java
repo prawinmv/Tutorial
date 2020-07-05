@@ -11,6 +11,8 @@ public class IQ1 {
 		}
 	System.out.println(reversed);
 	
+	
+	
 	//String reverse using String Builder or String Buffer Class
 	
 	StringBuilder txt= new StringBuilder(text);
