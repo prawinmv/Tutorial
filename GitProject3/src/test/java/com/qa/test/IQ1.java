@@ -3,7 +3,7 @@ package com.qa.test;
 public class IQ1 {
 
 	public static void main(String args[]) {
-		String text ="abcdefghijklmnopqrstuvwxyz";
+		String text ="TESTING";
 		String reversed="";
 		char[] ary= text.toCharArray();
 		for(int i= ary.length-1;i>=0;i--) {
